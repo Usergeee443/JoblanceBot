@@ -24,7 +24,7 @@ dp = Dispatcher(bot)
 async def send_welcome(message: types.Message):
    
    keyboard = InlineKeyboardMarkup()
-   keyboard.add(InlineKeyboardButton("🔥 Boshlash", url="https://joblance-6z9m.onrender.com"))
+   keyboard.add(InlineKeyboardButton("🔥 Boshlash", url="https://t.me/Joblanceuzbot/joblanceuz"))
 
    welcome_text = f"""
 Salom, {message.from_user.first_name}! 👋
